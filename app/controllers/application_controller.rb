@@ -3,4 +3,7 @@ class ApplicationController < ActionController::Base
  def presentacion
   render html: "Este es una presentacion de cambio donde 2+2 es 5"
 end
+ def hola
+render html: "hola, mundo!"
+end
 end
