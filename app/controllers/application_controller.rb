@@ -6,4 +6,6 @@ end
  def hola
 render html: "hola, mundo!"
 end
+def nuevo
+  render html: "Este es un nuevo cambio de nuevo"
 end
